@@ -1,0 +1,3 @@
+main_data_dir:
+  F:\data\example data for up samped PSF/ # main folder to your data, it is only useful if all your data are saved in one location, see example file
+
