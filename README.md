@@ -45,6 +45,13 @@ echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/' >> $CONDA_PREF
 - For bead data
   - [Up_sampled PSF modelling_for_simulated_data](demo/demo1_up_sampled_PSF_for_Sim.ipynb).
   - [Up_sampled PSF modelling_for_experimental_data](demo/demo2_up_sampled_PSF_for_Exp.ipynb).
+ 
+## Run time of learning the up PSF models listed in the demos
+The following run times were obtained from a desktop PC with Windows 11, RTX 3080.
+|**PSF type**| run time (min)| # of parameters|
+|:------------------|:----------------|:------------|
+|**demo1**|3.5 | 102,914|
+|**demo2**|1.1 | 106,881|
 
 
 # Example data 
